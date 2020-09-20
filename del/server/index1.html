@@ -1,0 +1,271 @@
+<!Doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>TMHome</title>
+<style>
+.tableView
+{
+border: 1px solid black;
+width: 700px;
+border-spacing: 3px;
+text-align:center;
+}
+.twoTable
+{
+text-align:center;
+border-spacing: 8px;
+
+}
+.threeTable
+{
+
+}
+.sixTable
+{
+
+}
+.headingStyle
+{
+font-weight: bolder;
+border: 1px solid black;
+}
+.button
+{
+background-color: black solid;
+color: black;
+text-align: center;
+font-size: 12px;
+}
+</style>
+<script>
+var homeJson;
+
+setTimeout(k=function(){
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('POST','/requestNewJson',true);
+xml.send();
+setTimeout(k,1000);
+},1000);
+
+
+
+function boardPowerButtonClickHandler(rowIndex,board)
+{
+return function()
+{
+if(board.status==true)
+{
+board.status=false;
+}
+else
+{
+board.status=true;
+}
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('POST','/onBoardStatusChanged',true);
+xml.send(JSON.stringify(component));
+};
+}
+
+
+
+function componentPowerButtonClickHandler(rowIndex,component)
+{
+return function(){
+if(component.status==true)
+{
+component.status=false;
+}
+else
+{
+component.status=true;
+}
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+
+formTable();
+}
+}
+xml.open('POST','/onStatusChanged',true);
+xml.send(JSON.stringify(component));
+};
+}
+
+
+function formTable()
+{
+var i,j,k;
+var componentNameCell,componentIdCell,componentMaxCell,componentMinCell,componentCell,componentRegulatableCell,componentStatusCell,row,componentButton;
+var roomNameCell,roomIdCell,roomCell;
+var boardNameCell,boardIdCell,boardStatusCell,boardCell,boardButton;
+var headingCell;
+var home=JSON.parse(homeJson);
+var index=0;
+var row;
+var table=document.createElement("table");
+while(table.rows.length>0) table.deleteRow(0);
+row=table.insertRow(index);
+table.className="tableView";
+headingCell=row.insertCell(0);
+headingCell.appendChild(document.createTextNode("_Rooms_"));
+index++;
+var twoColTable,threeColTable,sixColTable;
+
+var s=0,c=0;
+for(i=0; i<home.rooms.length;++i)
+{
+twoColTable= document.createElement("table");
+while(twoColTable.rows.length>0) twoColTable.deleteRow(0);
+row=twoColTable.insertRow(0);
+roomCell=row.insertCell(0);
+roomNameCell=row.insertCell(1);
+roomCell.appendChild(document.createTextNode("Code : "+home.rooms[i].code));
+roomNameCell.appendChild(document.createTextNode("Name : "+home.rooms[i].name));
+row=table.insertRow(index);
+table.appendChild(twoColTable);
+//while(twoColTable.rows.length>0) twoColTable.deleteRow(0);
+index++;
+for(j=0;j<home.rooms[i].boards.length;++j)
+{
+if(s==0)
+{
+row=table.insertRow(index);
+headingCell=row.insertCell(0);
+headingCell.appendChild(document.createTextNode("_Boards_"));
+index++;
+}
+s=1;
+threeColTable= document.createElement("table");
+while(threeColTable.rows.length>0) threeColTable.deleteRow(0);
+row=threeColTable.insertRow(0);
+boardIdCell=row.insertCell(0);
+boardNameCell=row.insertCell(1);
+boardStatusCell=row.insertCell(2);
+boardIdCell.appendChild(document.createTextNode("Code : "+home.rooms[i].boards[j].code));
+boardNameCell.appendChild(document.createTextNode("Name : "+home.rooms[i].boards[j].name));
+boardButton= document.createElement("button");
+if(home.rooms[i].boards[j].status == true || home.rooms[i].boards[j].status == "true")
+{
+boardButton.innerHTML="on";
+}
+if(home.rooms[i].boards[j].status == false || home.rooms[i].boards[j].status == "false" )
+{
+boardButton.innerHTML="off";
+}
+boardStatusCell.appendChild(boardButton);
+row=table.insertRow(index);
+table.appendChild(threeColTable);
+index++;
+c=0;
+for(k=0; k<home.rooms[i].boards[j].components.length;++k)
+{
+var x=0;
+sixColTable= document.createElement("table");
+while(sixColTable.rows.length>0) sixColTable.deleteRow(0);
+if(c==0)
+{
+row= sixColTable.insertRow(x);
+x++;
+componentIdCell= row.insertCell(0);
+componentNameCell= row.insertCell(1);
+componentRegulatableCell= row.insertCell(2);
+componentMinCell= row.insertCell(3);
+componentMaxCell= row.insertCell(4);
+componentStatusCell= row.insertCell(5);
+componentIdCell.appendChild(document.createTextNode("Id"));
+componentNameCell.appendChild(document.createTextNode("Name"));
+componentRegulatableCell.appendChild(document.createTextNode("Regulatable"));
+componentMinCell.appendChild(document.createTextNode("Min_Level"));
+componentMaxCell.appendChild(document.createTextNode("Max_Level"));
+componentStatusCell.appendChild(document.createTextNode("Status"));
+row=table.insertRow(index);
+table.appendChild(sixColTable);
+index++;
+
+
+}
+c=1;
+boardIdCell.appendChild(document.createTextNode("Code : "+home.rooms[i].boards[j].code));
+row= sixColTable.insertRow(x);
+x++;
+componentIdCell= row.insertCell(0);
+componentNameCell= row.insertCell(1);
+componentRegulatableCell= row.insertCell(2);
+componentMinCell= row.insertCell(3);
+componentMaxCell= row.insertCell(4);
+componentStatusCell= row.insertCell(5);
+componentIdCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].code));
+componentNameCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].name));
+componentRegulatableCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].regulatable));
+componentMinCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].minLevel));
+componentMaxCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].maxLevel));
+componentButton= document.createElement("button");
+if(home.rooms[i].boards[j].components[k].status == true || home.rooms[i].boards[j].components[k].status == "true")
+{
+componentButton.innerHTML="on";
+}
+if(home.rooms[i].boards[j].components[k].status == false || home.rooms[i].boards[j].components[k].status == "false" )
+{
+componentButton.innerHTML="off";
+}
+componentStatusCell.appendChild(componentButton);
+row=table.insertRow(index);
+table.appendChild(sixColTable);
+index++;
+}
+c=0;
+}
+s=0;
+}
+var div=document.getElementById("mainTable");
+div.appendChild(table);
+}
+
+
+function setUp()
+{
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('POST','/requestJson',true);
+xml.send();
+}
+
+window.addEventListener('load',setUp);
+</script>
+</head>
+<body>
+<center>
+<h1>_TM Home_</h1>
+</br>
+<div id="mainTable"></div>
+</center>
+</body>
+</html>

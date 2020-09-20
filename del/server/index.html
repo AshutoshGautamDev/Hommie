@@ -1,0 +1,261 @@
+<!Doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>TMHome</title>
+<style>
+.tableView
+{
+border: 1px solid black;
+width: 700px;
+border-spacing: 3px;
+}
+.headingStyle
+{
+font-weight: bolder;
+border: 1px solid black;
+}
+.button
+{
+background-color: black solid;
+color: black;
+text-align: center;
+font-size: 12px;
+}
+</style>
+<script>
+var homeJson;
+
+setTimeout(k=function(){
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('POST','/requestNewJson',true);
+xml.send();
+setTimeout(k,1000);
+},1000);
+
+
+
+function boardPowerButtonClickHandler(rowIndex,board)
+{
+return function()
+{
+if(board.status==true)
+{
+board.status=false;
+}
+else
+{
+board.status=true;
+}
+if(board.status == false )
+{
+for(var i = 0 ; i<board.components.length ;i++)
+{
+board.components[i].status=false;
+var xml= new XMLHttpRequest();
+xml.open('POST','/onStatusChanged',true);
+xml.send(JSON.stringify(board.components[i]));
+}
+}
+
+
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('POST','/onBoardStatusChanged',true);
+xml.send(JSON.stringify(board));
+};
+}
+
+
+
+function componentPowerButtonClickHandler(rowIndex,component,board)
+{
+return function(){
+
+if(board.status == false) 
+{
+alert("Please switch on the Board to alter Component status.")
+return;
+}
+if(component.status==true)
+{
+component.status=false;
+}
+else
+{
+component.status=true;
+}
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('POST','/onStatusChanged',true);
+xml.send(JSON.stringify(component));
+};
+}
+
+
+function formTable()
+{
+var i,j,k;
+var home=JSON.parse(homeJson);
+var table= document.getElementById("roomTable");
+while(table.rows.length>0) table.deleteRow(0);
+var componentNameCell,componentIdCell,componentMaxCell,componentMinCell,componentCell,componentRegulatableCell,componentStatusCell,row,componentButton;
+var roomNameCell,roomIdCell,roomCell;
+var boardNameCell,boardIdCell,boardStatusCell,boardCell,boardButton;
+var faltuCell1,faltuCell2,faltuCell3,faltuCell4,faltuCell5;
+var index=0
+for(i=0; i<home.rooms.length;++i)
+{
+row=table.insertRow(index);
+row.className='headingStyle';
+roomCell=row.insertCell(0);
+roomNameCell=row.insertCell(1);
+faltuCell1=row.insertCell(2);
+faltuCell2=row.insertCell(3);
+faltuCell3=row.insertCell(4);
+roomCell.appendChild(document.createTextNode("Rooms                 "));
+roomNameCell.appendChild(document.createTextNode(home.rooms[i].name));
+faltuCell1.appendChild(document.createTextNode("                     "));
+faltuCell2.appendChild(document.createTextNode("                     "));
+faltuCell3.appendChild(document.createTextNode("                      "));
+index++;
+for(j=0;j<home.rooms[i].boards.length;++j)
+{
+row=table.insertRow(index);
+row.className='headingStyle';
+boardCell=row.insertCell(0);
+boardNameCell=row.insertCell(1);
+boardIdCell=row.insertCell(2);
+faltuCell4=row.insertCell(3);
+boardStatusCell=row.insertCell(4);
+boardButton=document.createElement("button");
+boardButton.className='button';
+boardButton.addEventListener('click',boardPowerButtonClickHandler(index,home.rooms[i].boards[j]));
+boardCell.appendChild(document.createTextNode("Board______"));
+boardNameCell.appendChild(document.createTextNode(home.rooms[i].boards[j].name));
+boardIdCell.appendChild(document.createTextNode("______"));
+faltuCell4.appendChild(document.createTextNode("______"));
+boardStatusCell.appendChild(boardButton);
+if(home.rooms[i].boards[j].status == true || home.rooms[i].boards[j].status == "true")
+{
+boardButton.innerHTML="on";
+}
+if(home.rooms[i].boards[j].status == false || home.rooms[i].boards[j].status == "false" )
+{
+boardButton.innerHTML="off";
+}
+index++;
+s=1;
+for(k=0; k<home.rooms[i].boards[j].components.length;++k)
+{
+if(s==1)
+{
+row=table.insertRow(index);
+row.className='headingStyle';
+componentNameCell=row.insertCell(0);
+componentRegulatableCell=row.insertCell(1);
+componentMinCell=row.insertCell(2);
+componentMaxCell=row.insertCell(3);
+componentStatusCell=row.insertCell(4);
+componentNameCell.appendChild(document.createTextNode("______"));
+componentRegulatableCell.appendChild(document.createTextNode("______"));
+componentMinCell.appendChild(document.createTextNode("Components"));
+componentMaxCell.appendChild(document.createTextNode("______"));
+componentStatusCell.appendChild(document.createTextNode("______"));
+index++;
+row=table.insertRow(index);
+row.className='headingStyle';
+componentNameCell=row.insertCell(0);
+componentRegulatableCell=row.insertCell(1);
+componentMinCell=row.insertCell(2);
+componentMaxCell=row.insertCell(3);
+componentStatusCell=row.insertCell(4);
+componentNameCell.appendChild(document.createTextNode("Name"));
+componentRegulatableCell.appendChild(document.createTextNode("Regulatable"));
+componentMinCell.appendChild(document.createTextNode("Min Level"));
+componentMaxCell.appendChild(document.createTextNode("Max Level"));
+componentStatusCell.appendChild(document.createTextNode("Status"));
+index++;
+}
+s=0;
+row=table.insertRow(index);
+componentNameCell=row.insertCell(0);
+componentRegulatableCell=row.insertCell(1);
+componentMinCell=row.insertCell(2);
+componentMaxCell=row.insertCell(3);
+componentStatusCell= row.insertCell(4);
+componentNameCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].name));
+componentRegulatableCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].regulatable));
+componentMinCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].minLevel));
+componentMaxCell.appendChild(document.createTextNode(home.rooms[i].boards[j].components[k].maxLevel));
+componentButton= document.createElement("button");
+if(home.rooms[i].boards[j].components[k].status == true || home.rooms[i].boards[j].components[k].status == "true")
+{
+//while(componentButton.hasChildNodes()) componentButton.removeChild(componentButton.firstChild);
+//componentButton.appendChild(document.createTextNode("off"));
+componentButton.innerHTML="on";
+}
+if(home.rooms[i].boards[j].components[k].status == false || home.rooms[i].boards[j].components[k].status == "false")
+{
+//while(componentButton.hasChildNodes()) componentButton.removeChild(componentButton.firstChild);
+//componentButton.appendChild(document.createTextNode("on"));
+componentButton.innerHTML="off";
+}
+componentButton.className='button';
+componentButton.addEventListener('click',componentPowerButtonClickHandler(index,home.rooms[i].boards[j].components[k],home.rooms[i].boards[j]));
+componentStatusCell.appendChild(componentButton);
+index++;
+}
+}
+}
+}
+
+
+function setUp()
+{
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('POST','/requestJson',true);
+xml.send();
+}
+
+window.addEventListener('load',setUp);
+</script>
+</head>
+<body>
+<center>
+<h1>TM Home</h1>
+</br>
+<table id="roomTable" class='tableView'></table>
+</center>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!Doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>TMHome</title>
+<style>
+.tableView
+{
+border: 1px solid black;
+width: 700px;
+border-spacing: 3px;
+}
+.headingStyle
+{
+font-weight: bolder;
+}
+.button 
+{
+background-color: black solid;
+color: black;
+text-align: center;
+font-size: 12px;
+}
+</style>
+<script>
+var homeJson;
+setTimeout(var k=function(){
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('GET','/requestJson',true);
+xml.send();
+setTimeout(k,10);
+},10);
+function boardPowerButtonClickHandler(row,board)
+{
+return function()
+{
+alert("Clicked on "+board.name+row  );
+};
+}
+function componentPowerButtonClickHandler(row,component)
+{
+return function()
+{
+alert("Clicked on "+component.name+row);
+};
+}
+function formTable()
+{
+var i,j,k;
+var home=JSON.parse(homeJson);
+var table= document.getElementById("roomTable");
+while(table.rows.length>0) table.deleteRow(0);
+var nameCell,idCell,maxCell,minCell,regulatableCell,onOffCell,row;
+var index=0;
+for(i=0;i<home.Rooms.length;++i)
+{
+row=table.insertRow(index);
+row.className='headingStyle';
+roomCell=row.insertCell(0);
+nameCell=row.insertCell(1);
+idCell=row.insertCell(2);
+maxCell=row.insertCell(3);
+minCell=row.insertCell(4);
+roomCell.appendChild(document.createTextNode("Rooms...."));
+nameCell.appendChild(document.createTextNode(home.Rooms[i].name));
+idCell.appendChild(document.createTextNode("   "));
+maxCell.appendChild(document.createTextNode("   "));
+minCell.appendChild(document.createTextNode("    "));
+index++;
+for(j=0;j<home.Rooms[i].Boards.length;++j)
+{
+row=table.insertRow(index);
+row.className='headingStyle';
+roomCell=row.insertCell(0);
+nameCell=row.insertCell(1);
+idCell=row.insertCell(2);
+maxCell=row.insertCell(3);
+onOffCell=row.insertCell(4);
+power= document.createElement("button");
+power.className='button';
+power.innerHTML="Off";
+power.addEventListener('click',boardPowerButtonClickHandler(index,home.Rooms[i].Boards[j]));
+roomCell.appendChild(document.createTextNode("Board...."));
+nameCell.appendChild(document.createTextNode(home.Rooms[i].Boards[j].name));
+idCell.appendChild(document.createTextNode("   "));
+maxCell.appendChild(document.createTextNode("   "));
+onOffCell.appendChild(power);
+index++;
+//done
+s=1;
+for(k=0; k<home.Rooms[i].Boards[j].Components.length;++k)
+{
+if(s==1)
+{
+row=table.insertRow(index);
+row.className='headingStyle';
+roomCell=row.insertCell(0);
+nameCell=row.insertCell(1);
+idCell=row.insertCell(2);
+maxCell=row.insertCell(3);
+minCell=row.insertCell(4);
+roomCell.appendChild(document.createTextNode("      "));
+nameCell.appendChild(document.createTextNode("  "));
+idCell.appendChild(document.createTextNode("Components"));
+maxCell.appendChild(document.createTextNode("   "));
+minCell.appendChild(document.createTextNode("    "));
+index++;
+row=table.insertRow(index);
+row.className='headingStyle';
+roomCell=row.insertCell(0);
+nameCell=row.insertCell(1);
+idCell=row.insertCell(2);
+maxCell=row.insertCell(3);
+minCell=row.insertCell(4);
+roomCell.appendChild(document.createTextNode("Name"));
+nameCell.appendChild(document.createTextNode("Regulatable"));
+idCell.appendChild(document.createTextNode("Min Level"));
+maxCell.appendChild(document.createTextNode("Max Level"));
+minCell.appendChild(document.createTextNode("Status"));
+index++;
+}
+s=0;
+row=table.insertRow(index);
+nameCell=row.insertCell(0);
+regulatableCell=row.insertCell(1);
+minCell=row.insertCell(2);
+maxCell=row.insertCell(3);
+onOffCell= row.insertCell(4);
+nameCell.appendChild(document.createTextNode(home.Rooms[i].Boards[j].Components[k].name));
+regulatableCell.appendChild(document.createTextNode(home.Rooms[i].Boards[j].Components[k].Regulatable));
+minCell.appendChild(document.createTextNode(home.Rooms[i].Boards[j].Components[k].MinLevel));
+maxCell.appendChild(document.createTextNode(home.Rooms[i].Boards[j].Components[k].MaxLevel));
+power= document.createElement("button");
+if(home.Rooms[i].Boards[j].Components[k].Status=="false")
+{
+power.innerHTML="Off";
+}
+else
+{
+power.innerHTML="On";
+}
+power.className='button';
+power.addEventListener('click',boardPowerButtonClickHandler(index,home.Rooms[i].Boards[j].Components[k]));
+onOffCell.appendChild(power);
+index++;
+}
+}
+}
+}
+function setUp()
+{
+var xml= new XMLHttpRequest();
+xml.onreadystatechange= function()
+{
+if(xml.readyState==4  && xml.status==200)
+{
+homeJson=xml.responseText;
+formTable();
+}
+}
+xml.open('GET','/requestJson',true);
+xml.send();
+}
+window.addEventListener('load',setUp);
+</script>
+</head>
+<body>
+<center>
+<h1>TM Home</h1>
+<b>Ujian(M.P)</b>
+<p>Here, this is the representation of <b>TM homes</b> devices which are connected in your home</p>
+</br>
+</br>
+<table id="roomTable" class='tableView'></table>
+</center>
+</body>
+</html>

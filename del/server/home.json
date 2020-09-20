@@ -1,0 +1,2692 @@
+{
+    "rooms":[
+	{ 
+        "id": "1",
+        "name": "room1",
+	"boards":[
+	{
+
+            "roomId": "1",
+            "roomName": "room1",
+            "id": "1",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "1",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "2",
+            "name": "bulb",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "3",
+            "name": "diode",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "4",
+            "name": "fan",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "5",
+            "name": "washmachine",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "6",
+            "name": "oven",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "7",
+            "name": "music",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "8",
+            "name": "radio",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "9",
+            "name": "charge",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            },
+            {
+            "roomId": "1",
+            "roomName": "room1",
+            "boardId": "1",
+            "boardName": "Board1",
+            "id": "10",
+            "name": "led",
+          "status": "false",
+          "regulatable": "false",
+          "minLevel": "0",
+          "maxLevel": "0"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "2",
+        "name": "room2",
+	"boards":[
+	{
+
+            "roomId": "2",
+            "roomName": "room2",
+            "id": "2",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "2",
+            "boardName": "Board1",
+            "id": "11",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "2",
+            "boardName": "Board1",
+            "id": "12",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "2",
+            "boardName": "Board1",
+            "id": "13",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "2",
+            "boardName": "Board1",
+            "id": "14",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "2",
+            "roomName": "room2",
+            "id": "3",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "3",
+            "boardName": "Board2",
+            "id": "15",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "3",
+            "boardName": "Board2",
+            "id": "16",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "3",
+            "boardName": "Board2",
+            "id": "17",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "3",
+            "boardName": "Board2",
+            "id": "18",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "2",
+            "roomName": "room2",
+            "id": "4",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "4",
+            "boardName": "Board3",
+            "id": "19",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "4",
+            "boardName": "Board3",
+            "id": "20",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "4",
+            "boardName": "Board3",
+            "id": "21",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "4",
+            "boardName": "Board3",
+            "id": "22",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "2",
+            "roomName": "room2",
+            "id": "5",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "5",
+            "boardName": "Board4",
+            "id": "23",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "5",
+            "boardName": "Board4",
+            "id": "24",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "5",
+            "boardName": "Board4",
+            "id": "25",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "5",
+            "boardName": "Board4",
+            "id": "26",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "2",
+            "roomName": "room2",
+            "id": "6",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "6",
+            "boardName": "Board5",
+            "id": "27",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "6",
+            "boardName": "Board5",
+            "id": "28",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "6",
+            "boardName": "Board5",
+            "id": "29",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "2",
+            "roomName": "room2",
+            "boardId": "6",
+            "boardName": "Board5",
+            "id": "30",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "3",
+        "name": "room3",
+	"boards":[
+	{
+
+            "roomId": "3",
+            "roomName": "room3",
+            "id": "7",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "7",
+            "boardName": "Board1",
+            "id": "31",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "7",
+            "boardName": "Board1",
+            "id": "32",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "7",
+            "boardName": "Board1",
+            "id": "33",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "7",
+            "boardName": "Board1",
+            "id": "34",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "3",
+            "roomName": "room3",
+            "id": "8",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "8",
+            "boardName": "Board2",
+            "id": "35",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "8",
+            "boardName": "Board2",
+            "id": "36",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "8",
+            "boardName": "Board2",
+            "id": "37",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "8",
+            "boardName": "Board2",
+            "id": "38",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "3",
+            "roomName": "room3",
+            "id": "9",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "9",
+            "boardName": "Board3",
+            "id": "39",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "9",
+            "boardName": "Board3",
+            "id": "40",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "9",
+            "boardName": "Board3",
+            "id": "41",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "9",
+            "boardName": "Board3",
+            "id": "42",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "3",
+            "roomName": "room3",
+            "id": "10",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "10",
+            "boardName": "Board4",
+            "id": "43",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "10",
+            "boardName": "Board4",
+            "id": "44",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "10",
+            "boardName": "Board4",
+            "id": "45",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "10",
+            "boardName": "Board4",
+            "id": "46",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "3",
+            "roomName": "room3",
+            "id": "11",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "11",
+            "boardName": "Board5",
+            "id": "47",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "11",
+            "boardName": "Board5",
+            "id": "48",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "11",
+            "boardName": "Board5",
+            "id": "49",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "3",
+            "roomName": "room3",
+            "boardId": "11",
+            "boardName": "Board5",
+            "id": "50",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "4",
+        "name": "room4",
+	"boards":[
+	{
+
+            "roomId": "4",
+            "roomName": "room4",
+            "id": "12",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "12",
+            "boardName": "Board1",
+            "id": "51",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "12",
+            "boardName": "Board1",
+            "id": "52",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "12",
+            "boardName": "Board1",
+            "id": "53",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "12",
+            "boardName": "Board1",
+            "id": "54",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "4",
+            "roomName": "room4",
+            "id": "13",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "13",
+            "boardName": "Board2",
+            "id": "55",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "13",
+            "boardName": "Board2",
+            "id": "56",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "13",
+            "boardName": "Board2",
+            "id": "57",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "13",
+            "boardName": "Board2",
+            "id": "58",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "4",
+            "roomName": "room4",
+            "id": "14",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "14",
+            "boardName": "Board3",
+            "id": "59",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "14",
+            "boardName": "Board3",
+            "id": "60",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "14",
+            "boardName": "Board3",
+            "id": "61",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "14",
+            "boardName": "Board3",
+            "id": "62",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "4",
+            "roomName": "room4",
+            "id": "15",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "15",
+            "boardName": "Board4",
+            "id": "63",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "15",
+            "boardName": "Board4",
+            "id": "64",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "15",
+            "boardName": "Board4",
+            "id": "65",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "15",
+            "boardName": "Board4",
+            "id": "66",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "4",
+            "roomName": "room4",
+            "id": "16",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "16",
+            "boardName": "Board5",
+            "id": "67",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "16",
+            "boardName": "Board5",
+            "id": "68",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "16",
+            "boardName": "Board5",
+            "id": "69",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "4",
+            "roomName": "room4",
+            "boardId": "16",
+            "boardName": "Board5",
+            "id": "70",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "5",
+        "name": "room5",
+	"boards":[
+	{
+
+            "roomId": "5",
+            "roomName": "room5",
+            "id": "17",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "17",
+            "boardName": "Board1",
+            "id": "71",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "17",
+            "boardName": "Board1",
+            "id": "72",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "17",
+            "boardName": "Board1",
+            "id": "73",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "17",
+            "boardName": "Board1",
+            "id": "74",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "5",
+            "roomName": "room5",
+            "id": "18",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "18",
+            "boardName": "Board2",
+            "id": "75",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "18",
+            "boardName": "Board2",
+            "id": "76",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "18",
+            "boardName": "Board2",
+            "id": "77",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "18",
+            "boardName": "Board2",
+            "id": "78",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "5",
+            "roomName": "room5",
+            "id": "19",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "19",
+            "boardName": "Board3",
+            "id": "79",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "19",
+            "boardName": "Board3",
+            "id": "80",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "19",
+            "boardName": "Board3",
+            "id": "81",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "19",
+            "boardName": "Board3",
+            "id": "82",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "5",
+            "roomName": "room5",
+            "id": "20",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "20",
+            "boardName": "Board4",
+            "id": "83",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "20",
+            "boardName": "Board4",
+            "id": "84",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "20",
+            "boardName": "Board4",
+            "id": "85",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "20",
+            "boardName": "Board4",
+            "id": "86",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "5",
+            "roomName": "room5",
+            "id": "21",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "21",
+            "boardName": "Board5",
+            "id": "87",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "21",
+            "boardName": "Board5",
+            "id": "88",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "21",
+            "boardName": "Board5",
+            "id": "89",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "5",
+            "roomName": "room5",
+            "boardId": "21",
+            "boardName": "Board5",
+            "id": "90",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "6",
+        "name": "room6",
+	"boards":[
+	{
+
+            "roomId": "6",
+            "roomName": "room6",
+            "id": "22",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "22",
+            "boardName": "Board1",
+            "id": "91",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "22",
+            "boardName": "Board1",
+            "id": "92",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "22",
+            "boardName": "Board1",
+            "id": "93",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "22",
+            "boardName": "Board1",
+            "id": "94",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "6",
+            "roomName": "room6",
+            "id": "23",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "23",
+            "boardName": "Board2",
+            "id": "95",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "23",
+            "boardName": "Board2",
+            "id": "96",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "23",
+            "boardName": "Board2",
+            "id": "97",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "23",
+            "boardName": "Board2",
+            "id": "98",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "6",
+            "roomName": "room6",
+            "id": "24",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "24",
+            "boardName": "Board3",
+            "id": "99",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "24",
+            "boardName": "Board3",
+            "id": "100",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "24",
+            "boardName": "Board3",
+            "id": "101",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "24",
+            "boardName": "Board3",
+            "id": "102",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "6",
+            "roomName": "room6",
+            "id": "25",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "25",
+            "boardName": "Board4",
+            "id": "103",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "25",
+            "boardName": "Board4",
+            "id": "104",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "25",
+            "boardName": "Board4",
+            "id": "105",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "25",
+            "boardName": "Board4",
+            "id": "106",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "6",
+            "roomName": "room6",
+            "id": "26",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "26",
+            "boardName": "Board5",
+            "id": "107",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "26",
+            "boardName": "Board5",
+            "id": "108",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "26",
+            "boardName": "Board5",
+            "id": "109",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "6",
+            "roomName": "room6",
+            "boardId": "26",
+            "boardName": "Board5",
+            "id": "110",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "7",
+        "name": "room7",
+	"boards":[
+	{
+
+            "roomId": "7",
+            "roomName": "room7",
+            "id": "27",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "27",
+            "boardName": "Board1",
+            "id": "111",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "27",
+            "boardName": "Board1",
+            "id": "112",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "27",
+            "boardName": "Board1",
+            "id": "113",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "27",
+            "boardName": "Board1",
+            "id": "114",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "7",
+            "roomName": "room7",
+            "id": "28",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "28",
+            "boardName": "Board2",
+            "id": "115",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "28",
+            "boardName": "Board2",
+            "id": "116",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "28",
+            "boardName": "Board2",
+            "id": "117",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "28",
+            "boardName": "Board2",
+            "id": "118",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "7",
+            "roomName": "room7",
+            "id": "29",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "29",
+            "boardName": "Board3",
+            "id": "119",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "29",
+            "boardName": "Board3",
+            "id": "120",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "29",
+            "boardName": "Board3",
+            "id": "121",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "29",
+            "boardName": "Board3",
+            "id": "122",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "7",
+            "roomName": "room7",
+            "id": "30",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "30",
+            "boardName": "Board4",
+            "id": "123",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "30",
+            "boardName": "Board4",
+            "id": "124",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "30",
+            "boardName": "Board4",
+            "id": "125",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "30",
+            "boardName": "Board4",
+            "id": "126",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "7",
+            "roomName": "room7",
+            "id": "31",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "31",
+            "boardName": "Board5",
+            "id": "127",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "31",
+            "boardName": "Board5",
+            "id": "128",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "31",
+            "boardName": "Board5",
+            "id": "129",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "7",
+            "roomName": "room7",
+            "boardId": "31",
+            "boardName": "Board5",
+            "id": "130",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "8",
+        "name": "room8",
+	"boards":[
+	{
+
+            "roomId": "8",
+            "roomName": "room8",
+            "id": "32",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "32",
+            "boardName": "Board1",
+            "id": "131",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "32",
+            "boardName": "Board1",
+            "id": "132",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "32",
+            "boardName": "Board1",
+            "id": "133",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "32",
+            "boardName": "Board1",
+            "id": "134",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "8",
+            "roomName": "room8",
+            "id": "33",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "33",
+            "boardName": "Board2",
+            "id": "135",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "33",
+            "boardName": "Board2",
+            "id": "136",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "33",
+            "boardName": "Board2",
+            "id": "137",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "33",
+            "boardName": "Board2",
+            "id": "138",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "8",
+            "roomName": "room8",
+            "id": "34",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "34",
+            "boardName": "Board3",
+            "id": "139",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "34",
+            "boardName": "Board3",
+            "id": "140",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "34",
+            "boardName": "Board3",
+            "id": "141",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "34",
+            "boardName": "Board3",
+            "id": "142",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "8",
+            "roomName": "room8",
+            "id": "35",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "35",
+            "boardName": "Board4",
+            "id": "143",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "35",
+            "boardName": "Board4",
+            "id": "144",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "35",
+            "boardName": "Board4",
+            "id": "145",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "35",
+            "boardName": "Board4",
+            "id": "146",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "8",
+            "roomName": "room8",
+            "id": "36",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "36",
+            "boardName": "Board5",
+            "id": "147",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "36",
+            "boardName": "Board5",
+            "id": "148",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "36",
+            "boardName": "Board5",
+            "id": "149",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "8",
+            "roomName": "room8",
+            "boardId": "36",
+            "boardName": "Board5",
+            "id": "150",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "9",
+        "name": "room9",
+	"boards":[
+	{
+
+            "roomId": "9",
+            "roomName": "room9",
+            "id": "37",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "37",
+            "boardName": "Board1",
+            "id": "151",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "37",
+            "boardName": "Board1",
+            "id": "152",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "37",
+            "boardName": "Board1",
+            "id": "153",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "37",
+            "boardName": "Board1",
+            "id": "154",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "9",
+            "roomName": "room9",
+            "id": "38",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "38",
+            "boardName": "Board2",
+            "id": "155",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "38",
+            "boardName": "Board2",
+            "id": "156",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "38",
+            "boardName": "Board2",
+            "id": "157",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "38",
+            "boardName": "Board2",
+            "id": "158",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "9",
+            "roomName": "room9",
+            "id": "39",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "39",
+            "boardName": "Board3",
+            "id": "159",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "39",
+            "boardName": "Board3",
+            "id": "160",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "39",
+            "boardName": "Board3",
+            "id": "161",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "39",
+            "boardName": "Board3",
+            "id": "162",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "9",
+            "roomName": "room9",
+            "id": "40",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "40",
+            "boardName": "Board4",
+            "id": "163",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "40",
+            "boardName": "Board4",
+            "id": "164",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "40",
+            "boardName": "Board4",
+            "id": "165",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "40",
+            "boardName": "Board4",
+            "id": "166",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "9",
+            "roomName": "room9",
+            "id": "41",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "41",
+            "boardName": "Board5",
+            "id": "167",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "41",
+            "boardName": "Board5",
+            "id": "168",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "41",
+            "boardName": "Board5",
+            "id": "169",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "9",
+            "roomName": "room9",
+            "boardId": "41",
+            "boardName": "Board5",
+            "id": "170",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        },	{ 
+        "id": "10",
+        "name": "room10",
+	"boards":[
+	{
+
+            "roomId": "10",
+            "roomName": "room10",
+            "id": "42",
+            "name": "Board1",
+        "status": "false",
+            "components":[            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "42",
+            "boardName": "Board1",
+            "id": "171",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "42",
+            "boardName": "Board1",
+            "id": "172",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "42",
+            "boardName": "Board1",
+            "id": "173",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "42",
+            "boardName": "Board1",
+            "id": "174",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "10",
+            "roomName": "room10",
+            "id": "43",
+            "name": "Board2",
+        "status": "false",
+            "components":[            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "43",
+            "boardName": "Board2",
+            "id": "175",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "43",
+            "boardName": "Board2",
+            "id": "176",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "43",
+            "boardName": "Board2",
+            "id": "177",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "43",
+            "boardName": "Board2",
+            "id": "178",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "10",
+            "roomName": "room10",
+            "id": "44",
+            "name": "Board3",
+        "status": "false",
+            "components":[            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "44",
+            "boardName": "Board3",
+            "id": "179",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "44",
+            "boardName": "Board3",
+            "id": "180",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "44",
+            "boardName": "Board3",
+            "id": "181",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "44",
+            "boardName": "Board3",
+            "id": "182",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "10",
+            "roomName": "room10",
+            "id": "45",
+            "name": "Board4",
+        "status": "false",
+            "components":[            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "45",
+            "boardName": "Board4",
+            "id": "183",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "45",
+            "boardName": "Board4",
+            "id": "184",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "45",
+            "boardName": "Board4",
+            "id": "185",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "45",
+            "boardName": "Board4",
+            "id": "186",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            },
+	{
+
+            "roomId": "10",
+            "roomName": "room10",
+            "id": "46",
+            "name": "Board5",
+        "status": "false",
+            "components":[            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "46",
+            "boardName": "Board5",
+            "id": "187",
+            "name": "component1",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "46",
+            "boardName": "Board5",
+            "id": "188",
+            "name": "component2",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "46",
+            "boardName": "Board5",
+            "id": "189",
+            "name": "component3",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            },
+            {
+            "roomId": "10",
+            "roomName": "room10",
+            "boardId": "46",
+            "boardName": "Board5",
+            "id": "190",
+            "name": "component4",
+          "status": "false",
+          "regulatable": "true",
+          "minLevel": "0",
+          "maxLevel": "7"
+            }
+        ]            }
+        ]        }    ]
+}

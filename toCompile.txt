@@ -1,0 +1,1 @@
+javac -d ..\classes cp ..\classes;..\dist\*;. %1 %2 %3
